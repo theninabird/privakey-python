@@ -2,11 +2,11 @@
 
 ## Overview ##
 
-This Python Example is intended to aid developers in implementing privaKey Authentication services in their service.
+This Python example is intended to aid developers in implementing Privakey Authentication Services in their service.
 
 It is provided "as-is" without warranty, implicit or explicit. This and other libraries are provided as samples only.
 
-For more information visit [www.privakey.com](https://www.privakey.com) or contact support@privakey.com
+For more information visit [www.privakey.com](https://www.privakey.com) or contact support@privakey.com.
 
 ## Prerequisites ##
 
@@ -20,8 +20,8 @@ For more information visit [www.privakey.com](https://www.privakey.com) or conta
 ## Usage ##
 
 Download the Privakey application from the Apple Store or the Google Play store.
-Goto [Privakey.com](https://www.privakey.com) and sign up to become a relying party
-Set your redirect url's:
+Go to [Privakey.com](https://www.privakey.com) and sign up to become a relying party.
+Set your redirect URLs:
 ```
 Use 1 for implicit flow, 2 for code flow, or both if switching during testing:
 1. https://localhost:80/implicit_flow
@@ -29,12 +29,13 @@ Use 1 for implicit flow, 2 for code flow, or both if switching during testing:
 ```
 
 Open the settings.yaml.example and set your client id and client secret.
-Install the required dependances
 
+Install the required dependencies:
 `pip install -r requirements.txt`
 
 You can run the sample:
 `sudo python rp.py settings.yaml.example`
 
-This will start a local server at https://localhost:80
+This will start a local server at https://localhost:80.
+
 Enter your Privakey login to start the process.
